@@ -67,7 +67,11 @@ namespace Q1
         }
         public void DisplayInfo()
         {
-
+            Console.WriteLine($"Car make: {Make}");
+            Console.WriteLine($"Car model: {Model}");
+            Console.WriteLine($"Car engine: {Engine}");
+            Console.WriteLine($"Car speed: {Speed}");
+            Console.WriteLine("\n");
         }
     }        
 }
